@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The project is hosted at - https://saps-covidtracker.netlify.app/
 
 ## Available Scripts
 
