@@ -17,7 +17,7 @@ const Chart = ({data, country}) => {
 
     fetchMyAPI()
 
-  }, [])
+  }, []) // if array is added then it acts as componentDidMount, or else it will keep calling the API continously making the program slow
 
   const barChart = (
     data.confirmed ? (
@@ -67,7 +67,7 @@ const Chart = ({data, country}) => {
 
   return (
     <div className={styles.container}>
-      {country? barChart: lineChart}
+      {country? barChart: lineChart} {/* *if there is a country show a bar chart else a normal chart */}
     </div>
   );
 };

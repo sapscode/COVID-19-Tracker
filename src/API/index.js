@@ -5,7 +5,7 @@ const url = 'https://covid19.mathdro.id/api'; // url of api
 export const fetchData = async(country) => {
     let changeurl = url
 
-    if(country){
+    if(country){ // if there is a country , then url will request the country details from the API or else the URL will have same details
         changeurl = `${url}/countries/${country}`
     }
     try{ // if fetch is successful

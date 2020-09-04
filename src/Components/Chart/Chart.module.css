@@ -4,7 +4,7 @@
    width: 85% 
 }
 
-@media (max-width: 770px){
+@media (max-width: 770px){ {/* to make it mobile responsive */}
    .container{
       width: 100%
    }
